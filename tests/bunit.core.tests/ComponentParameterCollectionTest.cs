@@ -16,7 +16,7 @@ public class ComponentParameterCollectionTest : TestContext
 
 		sut.Add(p);
 
-		sut.Count.ShouldBe(1);
+		sut.Count.ShouldBe(5);
 		sut.Contains(p).ShouldBeTrue();
 	}
 

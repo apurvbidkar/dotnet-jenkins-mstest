@@ -25,7 +25,7 @@ public class RazorTestDiscovererTest
 
 		var testCases = discoverer.Discover(options, testMethod, attribute);
 
-		testCases.ShouldAllBe(x => x.DisplayName.ShouldBe("FIXTURE 1"));
+		testCases.ShouldAllBe(x => x.DisplayName.ShouldBe("FIXTURE 123"));
 	}
 
 	[Fact(DisplayName = "Can find two razor test in test component")]
